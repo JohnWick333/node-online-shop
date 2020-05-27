@@ -6,5 +6,5 @@ const pool = mysql.createPool({
     database: 'first_node_app',
     password: 'johnwick4'
 })
-//return a promise
+
 module.exports=pool.promise();
